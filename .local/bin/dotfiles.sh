@@ -20,6 +20,7 @@ cp -r ~/.config/rofi $REPO/.config
 cp -r ~/.config/mxmaster $REPO/.config
 cp -r ~/.config/caffeine  $REPO/.config
 cp -r ~/.config/polybar  $REPO/.config
+cp -r ~/.config/awesome $REPO/.config
 
 #echo "Do you want to upload them to git? [Y/n]"
 #CHOICE=Y
