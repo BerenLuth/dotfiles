@@ -7,7 +7,7 @@ mkdir -p $REPO
 mkdir -p $REPO/.local/bin
 mkdir -p $REPO/.config/
 
-cp ~/.local/bin/dotfiles.sh $REPO/.local/bin
+cp ~/.local/bin/* $REPO/.local/bin
 
 cp ~/.zshrc $REPO
 cp ~/.p10k.zsh $REPO

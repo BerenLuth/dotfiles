@@ -1,0 +1,7 @@
+cd /tmp
+SCR=~/Greendecision/GraphQlParser/main.py
+echo "script position:" $SCR
+echo
+echo
+python $SCR --file $1
+code out
