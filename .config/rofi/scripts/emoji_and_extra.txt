@@ -1,7 +1,7 @@
 😀 Grinning Face
 😁 Beaming Face With Smiling Eyes
-😂 Face With Tears of Joy
-🤣 Rolling on the Floor Laughing
+😂 Face With Tears of Joy lol
+🤣 Rolling on the Floor Laughing lol
 😃 Grinning Face With Big Eyes
 😄 Grinning Face With Smiling Eyes
 😅 Grinning Face With Sweat
@@ -5442,7 +5442,7 @@ $ dollar sign
 🢭 white arrow shaft width two thirds
 🤐 zipper-mouth face
 🤑 money-mouth face
-🤒 face with thermometer
+🤒 face with thermometer sick
 🤓 nerd face
 🤔 thinking face
 🤕 face with head-bandage

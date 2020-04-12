@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if test -f "$1"; then
+    echo -n "Please insert the speed up: "
+    read speed
+    echo -e "Launching ffmpeg...\n"
+    multiplier=$(echo "scale=2;1/$speed" | bc)
+    ffmpeg -i $1 -filter:v "setpts=$multiplier*PTS" "output_$1"
+else
+    echo -e "Sorry the file was not found.\nYou must input a valid file path as first argument."
+fi
