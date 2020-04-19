@@ -30,7 +30,7 @@ SHORTCUT_FILTERS="Alt+p"
 SHORTCUT_CLEAR="Alt+a"
 SHORTCUT_HELP="Alt+h"
 
-EDITOR='gedit'
+EDITOR='code'
 
 ROFI_BIN="$(whereis -b rofi | awk '{print $2}')"
 TODO_BIN="$(whereis -b todo.sh | awk '{print $2}')"
