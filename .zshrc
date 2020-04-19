@@ -131,18 +131,16 @@ DEFAULT_USER=$USER
 alias ll="ls -lAh"
 alias open=xdg-open
 alias xclip="xclip -selection c"
-alias pinggoogle="ping -c 5 www.google.com"
+alias pingg="ping -c 5 www.google.com"
 alias top="gotop --rate=0.5"
 alias weather="curl wttr.in"
 alias gt="gnome-terminal"
 
 # Path variables
-export PATH=$PATH:~/.local/bin
-export PATH=$PATH:~/.geckodriver
-export PATH=$PATH:~/Android/Sdk/platform-tools
-
-#Node
-export PATH=$PATH:~/.node/node-v12.9.0-linux-x64/bin 
+export PATH=$PATH:~/.local/bin                          # Personal scripts
+export PATH=$PATH:~/.geckodriver                        # Gecko
+export PATH=$PATH:~/Android/Sdk/platform-tools          # ADB
+export PATH=$PATH:~/.node/node-v12.9.0-linux-x64/bin    # Node
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
