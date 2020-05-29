@@ -135,6 +135,7 @@ alias pingg="ping -c 5 www.google.com"
 alias top="gotop --rate=0.5"
 alias weather="curl wttr.in"
 alias gt="gnome-terminal"
+alias metadata="id3v2"
 
 # Path variables
 export PATH=$PATH:~/.local/bin                          # Personal scripts
